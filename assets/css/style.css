@@ -76,9 +76,15 @@ a:hover {
 }
 
 
-h1, h2, h3, h4, h5, h6{		
+h1, h3, h4, h5, h6{		
 	margin: 0 0 15px 0;	
 	color: #3A4F52;
+	font-family: 'Alegreya Sans';
+}
+
+h2{
+	margin: 0 0 15px 0;	
+	color: #59777c;
 	font-family: 'Alegreya Sans';
 }
 
@@ -173,12 +179,12 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 15px;
 	line-height: 1em;
 	font-family: 'Nixie One';
-	color: white;
+	color: rgb(60, 167, 202);
 }
 
 #header .secondary-slogan{
 	font-size: 1.6em;
-	color: rgba(255,255,255,.5);
+	color: rgba(60, 167, 202, 0.87);
 	line-height: 1em;
 	font-family: 'Alegreya SC';
 }
@@ -267,6 +273,10 @@ h1, h2, h3, h4, h5, h6{
 	background-image: url(../images/traffic.jpg);
 	color: white;
 }
+#services2 {
+	background-image: url(../images/traffic2.jpg);
+	color: white;
+}
 #parallax {
 	background-image: url(../images/blue_mac2.jpg);
 	color: white;
@@ -332,7 +342,14 @@ h1, h2, h3, h4, h5, h6{
     opacity: 1;
 }
 
-
+.static-image {
+  width: 100%;
+  height: 240px; /* alto fijo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
 
 
 
@@ -342,6 +359,9 @@ h1, h2, h3, h4, h5, h6{
 
 #services h1, #services h2{
 	color: white;
+}
+#services2 h1, #services2 h2{
+  color: white;
 }
 .service i {
     font-size: 60px;
