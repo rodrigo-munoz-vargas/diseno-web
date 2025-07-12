@@ -171,7 +171,7 @@ h2{
 
 #header .logo, #header .toggleDrawer{
 	font-family: 'Alegreya SC';
-	color: white;
+	color: rgba(70, 167, 202, 0.900);
 }
 
 #header .slogan{
@@ -179,12 +179,12 @@ h2{
 	margin-bottom: 15px;
 	line-height: 1em;
 	font-family: 'Nixie One';
-	color: rgb(60, 167, 202);
+	color: rgba(40, 167, 202, 0.900);
 }
 
 #header .secondary-slogan{
 	font-size: 1.6em;
-	color: rgba(60, 167, 202, 0.87);
+	color: rgba(20, 167, 202, 0.87);
 	line-height: 1em;
 	font-family: 'Alegreya SC';
 }
