@@ -26,11 +26,58 @@
 
 })(jQuery,'smartresize');
 
+const galleryItems = document.querySelectorAll('.gallery-item');
+const modal = document.getElementById('modal');
+const modalImage = document.querySelector('.modal-image');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentImageIndex = 0;
 
+galleryItems.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    currentImageIndex = index;
+    modal.style.display = 'block';
+    modalImage.src = item.getAttribute('data-src');
+  });
+});
 
+prevBtn.addEventListener('click', () => {
+  currentImageIndex--;
+  if (currentImageIndex < 0) {
+    currentImageIndex = galleryItems.length - 1;
+  }
+  modalImage.src = galleryItems[currentImageIndex].getAttribute('data-src');
+});
 
+nextBtn.addEventListener('click', () => {
+  currentImageIndex++;
+  if (currentImageIndex >= galleryItems.length) {
+    currentImageIndex = 0;
+  }
+  modalImage.src = galleryItems[currentImageIndex].getAttribute('data-src');
+});
 
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+});
 
+$('.close-btn').click(function() {
+  $('#modal').hide();
+});
+
+document.addEventListener('keydown', function(e) {
+  if ($('#modal').is(':visible')) {
+    if (e.keyCode === 37) {
+      $('.prev-btn').click();
+    } else if (e.keyCode === 39) {
+      $('.next-btn').click();
+    } else if (e.keyCode === 27) {
+      $('#modal').hide();
+    }
+  }
+});
 
 (function(){
 
