@@ -179,12 +179,12 @@ h2{
 	margin-bottom: 15px;
 	line-height: 1em;
 	font-family: 'Nixie One';
-	color: rgba(30, 167, 202, 0.900);
+	color: rgba(10, 119, 124, 0.9);
 }
 
 #header .secondary-slogan{
 	font-size: 1.6em;
-	color: rgba(10, 167, 202, 0.87);
+	color: rgba(10, 118, 124, 0.788);
 	line-height: 1em;
 	font-family: 'Alegreya SC';
 }
