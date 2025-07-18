@@ -9,10 +9,7 @@ Navegación fácil: La página cuenta con una navegación clara y fácil de usar
 Secciones informativas: La página incluye varias secciones informativas que presentan la misión, visión y objetivos de la empresa, así como su equipo profesional y productos.
 Galería de imágenes: La página cuenta con una galería de imágenes que muestra los productos de la empresa.
 Enfoque en la inclusión y la sostenibilidad: La página destaca el enfoque de la empresa en la inclusión y la sostenibilidad, con un diseño y contenido que reflejan estos valores.
-<<<<<<< HEAD
 Accesibilidad: La página web ha sido diseñada con características de accesibilidad para garantizar que sea utilizable por todos los usuarios, incluyendo aquellos con discapacidad. 
-=======
->>>>>>> 2c4eac5a2199b545b33ce14d96f0f437a8056f83
 
 Tecnologías utilizadas
 
@@ -26,8 +23,4 @@ Objetivos del proyecto
 
 Presentar la marca: La página web tiene como objetivo presentar la marca Weke Outdoor y sus productos de manera clara y atractiva.
 Informar a los visitantes: La página proporciona información sobre la misión, visión y objetivos de la empresa, así como sobre su equipo profesional y productos.
-<<<<<<< HEAD
 Promover la inclusión y la sostenibilidad: La página destaca el enfoque de la empresa en la inclusión y la sostenibilidad, y promueve estos valores a los visitantes.
-=======
-Promover la inclusión y la sostenibilidad: La página destaca el enfoque de la empresa en la inclusión y la sostenibilidad, y promueve estos valores a los visitantes.
->>>>>>> 2c4eac5a2199b545b33ce14d96f0f437a8056f83
