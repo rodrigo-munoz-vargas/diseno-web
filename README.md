@@ -1,4 +1,5 @@
 Descripción del Proyecto Weke Outdoor
+
 Weke Outdoor es una página web diseñada para una marca de ropa outdoor que se enfoca en la inclusión y la sostenibilidad. La página presenta la misión, visión y objetivos de la empresa, así como su equipo profesional y productos.
 
 Características clave
